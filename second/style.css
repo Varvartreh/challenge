@@ -2,3 +2,30 @@
     padding: 0;
     margin: 0;
 }
+.heade{
+    width: 100vw;
+    height: 10vh;
+    padding: 1em 0 1em;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+.head-but{
+    display: flex;
+    width: 10vw;
+    padding: .5em;
+    border-radius: 10px;
+    margin-right: 1em;
+    cursor: pointer;
+    
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.btn4{
+    align-items: flex-end;
+}
