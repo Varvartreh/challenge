@@ -5,6 +5,7 @@
 .heade{
     width: 100vw;
     height: 10vh;
+    margin-bottom: 90vh;
     padding: 1em 0 1em;
     position: fixed;
     display: flex;
@@ -13,7 +14,7 @@
 }
 .head-but{
     display: flex;
-    width: 10vw;
+    width: fit-content;
     padding: .5em;
     border-radius: 10px;
     margin-right: 1em;
@@ -28,4 +29,12 @@
 }
 .btn4{
     align-items: flex-end;
+    margin-left: 60vw;
+}
+downer{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: row-reverse;
 }
