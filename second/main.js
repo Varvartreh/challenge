@@ -14,6 +14,22 @@ function chale(){
     if(tema = 'fitnes'){
         text.innerHTML = fitnes[Math.floor(Math.random() * fitnes.length)];
     }
+    else if(tema = 'productivnost'){
+        text.innerHTML = productivnost[Math.floor(Math.random() * fitnes.length)];
+    }
+    else if(tema = 'obraz'){
+        text.innerHTML = obraz[Math.floor(Math.random() * fitnes.length)];
+    }
+    else if(tema = 'tvorch'){
+        text.innerHTML = tvorch[Math.floor(Math.random() * fitnes.length)];
+    }
+    else if(tema = 'dom'){
+        text.innerHTML = dom[Math.floor(Math.random() * fitnes.length)];
+    }
+    else if(tema = 'blago'){
+        text.innerHTML = blago[Math.floor(Math.random() * fitnes.length)];
+    }
 }
 
 let men = document.querySelector('.main-niz')
+men.addEventListener("click", chale())
