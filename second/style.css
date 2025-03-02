@@ -18,7 +18,7 @@
     width: fit-content;
     height: 1em;
     padding: 1em;
-    background-color: white;
+    background-color: #FFF2F2;
 }
 .main-desk{
     margin-top: 20px;
@@ -27,7 +27,7 @@
     font-size: 50px;
     height: 4em;
     padding: 2em;
-    background-color: white;
+    background-color: #FFF2F2;
 }
 .main-niz{
     margin:auto;
@@ -49,7 +49,7 @@
     border-radius: 10px;
     margin-right: 1em;
     cursor: pointer;
-    height: 3vw;
+    height: 2vw;
 }
 .left{
     display: flex;
@@ -90,4 +90,11 @@
 body{
     background-image: url("./image 2.png");
     background-size: cover;
+}
+footer{
+    background-color: white;
+    opacity: 0.5;
+    text-align: center;
+    height: 500px;
+    margin:top;   
 }
