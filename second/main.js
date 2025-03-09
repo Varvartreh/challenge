@@ -31,5 +31,11 @@ function chale(){
     }
 }
 
-let men = document.querySelector('.main-niz')
-men.addEventListener("click", chale())
+/*let men = document.querySelector('.main-niz')
+men.addEventListener("click", chale())*/
+
+
+let zam = document.querySelector('.main-niz')
+men.addEventListener("mouseover", function(){
+    zam.style.backgroundcolor = 'grey'
+})
