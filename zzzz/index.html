@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Челленджи</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+    body {
+      background: #fff;
+      color: #333;
+    }
+
+    header {
+      width: 100%;
+      padding: 20px 0;
+      background-color: #ffffff;
+      border-bottom: 1px solid #ffffff;
+    }
+    .tabs {
+      display: flex;
+      align-items: center;
+      margin: 0 40px;
+    }
+    .spacer {
+      flex: 1;
+    }
+    .tab {
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 700;
+      border-radius: 9999px;
+      padding: 10px 25px;
+      margin-right: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+      transition: background-color 0.2s, box-shadow 0.2s;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .tab:hover {
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    .tab-purple {
+      background-color: #4B2269;
+      color: #fff;
+      border: none;
+    }
+    .tab-light {
+      background-color: #fff;
+      color: #333;
+      border: 1px solid #ddd;
+    }
+
+    main {
+      min-height: 70vh;
+      padding: 40px 20px;
+      background: url('image.png') no-repeat center center; 
+      background-size: cover;
+      height: 100vh;
+      width: 99.1vw;
+    }
+    .title {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .cards-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.2s, box-shadow 0.2s;
+      cursor: pointer;
+      display: block;
+      text-decoration: none;
+      color: inherit;
+    }
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+    .card h2 {
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #333;
+    }
+    .card p {
+      font-size: 0.95rem;
+      line-height: 1.4;
+      color: #555;
+    }
+
+    footer {
+      position: relative;
+      background: rgba(231, 231, 231, 0.5);
+      padding: 20px 40px;
+      text-align: center;
+      border-top: 0px solid #ffffff;
+    }
+    footer p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav class="tabs">
+      <a href="#" class="tab tab-purple">Главная</a>
+      <a href="#" class="tab tab-light">Челенджи</a>
+      <a href="#" class="tab tab-light">Статистика</a>
+      <div class="spacer"></div>
+      <a href="#" class="tab tab-purple">Войти</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="title">Темы челленджей</h1>
+    <div class="cards-container">
+      <a class="card" href="#">
+        <h2>Фитнес</h2>
+        <p>Задачи на улучшение физической формы и здоровья.</p>
+      </a>
+      <a class="card" href="#">
+        <h2>Продуктивность</h2>
+        <p>Попробуйте более эффективно использовать своё время.</p>
+      </a>
+      <a class="card" href="#">
+        <h2>Образование</h2>
+        <p>Учите что-то новое каждый день.</p>
+      </a>
+      <a class="card" href="#">
+        <h2>Домашние проекты</h2>
+        <p>Занимайтесь домом или садоводством.</p>
+      </a>
+      <a class="card" href="#">
+        <h2>Творчество</h2>
+        <p>Развивайте свои художественные навыки и креативность.</p>
+      </a>
+      <a class="card" href="#">
+        <h2>Благополучие</h2>
+        <p>Фокусируйтесь на ментальном здоровье и счастье.</p>
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    <p>Контактные данные:</p>
+    <p>Email: <a href="mailto:contact@example.com">contact@example.com</a></p>
+    <p>Телефон: +7 (123) 456-78-90</p>
+  </footer>
+
+</body>
+</html>
