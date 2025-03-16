@@ -8,12 +8,11 @@ let fitnes=['Челленж 27 дней приседаний: 10, 15, 20, 25, 30
 
 
 //текст испытания
-/*function chale(){
-    let tema = document.querySelector('.main-header').value;
+function chale(){
     let text = document.querySelector('.main-desk').value;
-    if(tema = 'fitnes'){
-        text.innerHTML = fitnes[Math.floor(Math.random() * fitnes.length)];
-    }
+
+    text.innerHTML = fitnes[Math.floor(Math.random() * fitnes.length)]}
+ /*   }
     else if(tema = 'productivnost'){
         text.innerHTML = productivnost[Math.floor(Math.random() * fitnes.length)];
     }
