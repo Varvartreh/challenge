@@ -1,4 +1,6 @@
 let card = document.querySelectorAll('.card')
-card.addEventListener("click", () => {
-    location.href="../second-m/index.html"
-})
+card.forEach(element => {
+    element.addEventListener("click", () => {
+        location.href = "../second-m/index.html"
+    })
+});
