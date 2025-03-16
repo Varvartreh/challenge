@@ -31,7 +31,7 @@ function chale(){
     }
 }
 
-let men = document.querySelector('.main-niz')
+let men = document.querySelector('.btn2')
 men.addEventListener("click", chale())
 
 let home = document.querySelector('.btn1')

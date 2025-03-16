@@ -29,19 +29,9 @@
     padding: 2em;
     background-color: #FFF2F2;
 }
-.main-niz{
-    margin:auto;
-    align-items: center;
-    justify-content: center;
-    display:flex;
-    min-width: fit-content;
-    font-size: 32px;
-    width: 46vw;
-    height: 1em;
-    padding: 2em;
-    border-radius:20px;
+
     
-}
+
 .head-but{
     display:flex;
     width:fit-content;
