@@ -9,24 +9,24 @@ let blago = ['Начните заниматься йогой. Для этого 
 
 //текст испытания
 function chale(){
-    let tema = document.querySelector('.main-header').value;
-    let text = document.querySelector('.main-desk').value;
-    if(tema = 'fitnes'){
+    let btn_innerHTML = localStorage.getItem("key")
+    let text = document.querySelector('.main-desk');
+    if(btn_innerHTML.includes("Фитнес")){
         text.innerHTML = fitnes[Math.floor(Math.random() * fitnes.length)];
     }
-    else if(tema = 'productivnost'){
+    else if(btn_innerHTML.includes("Продуктивность")){
         text.innerHTML = productivnost[Math.floor(Math.random() * fitnes.length)];
     }
-    else if(tema = 'obraz'){
+    else if(btn_innerHTML.includes("Образование")){
         text.innerHTML = obraz[Math.floor(Math.random() * fitnes.length)];
     }
-    else if(tema = 'tvorch'){
+    else if(btn_innerHTML.includes("Творчество")){
         text.innerHTML = tvorch[Math.floor(Math.random() * fitnes.length)];
     }
-    else if(tema = 'dom'){
+    else if(btn_innerHTML.includes("Домашние проекты")){
         text.innerHTML = dom[Math.floor(Math.random() * fitnes.length)];
     }
-    else if(tema = 'blago'){
+    else if(btn_innerHTML.includes("Благополучие")){
         text.innerHTML = blago[Math.floor(Math.random() * fitnes.length)];
     }
 }
@@ -34,3 +34,5 @@ function chale(){
 let men = document.querySelector('.main-niz')
 men.addEventListener("click", chale())
 
+let home = document.querySelector('.btn1')
+home.addEventListener("click", () => {location.href = "../zzzz/index.html"})
